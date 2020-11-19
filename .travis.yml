@@ -17,17 +17,17 @@ env:
     - LUA=luajit2.1
     
     
-    - arch: ppc64le
+      arch: ppc64le
     - LUA=lua5.1
-    - arch: ppc64le
+      arch: ppc64le
     - LUA=lua5.2
-    - arch: ppc64le
+      arch: ppc64le
     - LUA=lua5.3
-    - arch: ppc64le
+      arch: ppc64le
     - LUA=luajit
-    - arch: ppc64le
+      arch: ppc64le
     - LUA=luajit2.0
-    - arch: ppc64le
+      arch: ppc64le
     - LUA=luajit2.1
 
 before_install:
