@@ -1,4 +1,7 @@
 language: c
+arch:
+ - amd64
+ - ppc64le
 sudo: false
 
 os:
@@ -16,19 +19,6 @@ env:
     - LUA=luajit2.0
     - LUA=luajit2.1
     
-    
-      arch: ppc64le
-    - LUA=lua5.1
-      arch: ppc64le
-    - LUA=lua5.2
-      arch: ppc64le
-    - LUA=lua5.3
-      arch: ppc64le
-    - LUA=luajit
-      arch: ppc64le
-    - LUA=luajit2.0
-      arch: ppc64le
-    - LUA=luajit2.1
 
 before_install:
   - source .travis/setenv_lua.sh
